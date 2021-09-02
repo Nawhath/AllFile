@@ -10,6 +10,7 @@ spec:
     matchLabels:
       app: php
       tier: backend
+  type: NodePort
   template:
     metadata:
       labels:
